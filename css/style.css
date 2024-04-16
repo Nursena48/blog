@@ -1,0 +1,292 @@
+
+body {font-family:Arial , Tahoma;margin:0}
+
+.container {width:1170px;margin:auto}
+
+.clean {clear:both}
+
+
+/* Start Header */
+
+/* Start Slider */
+
+.header .slider {
+    height:600px;
+    background-image:url('/images/profil/WhatsApp\ Image\ 2024-03-27\ at\ 23.00.06.jpeg');
+    background-size: cover; 
+}
+
+.header .slider .intro {
+    padding-top:150px;
+    color: #FFF;
+    text-align:center
+}
+
+.header .slider .intro h2 {
+    display:inline-block;
+    border-top:4px solid #FFF;
+    border-bottom:4px solid #FFF;
+    font-size:50px;
+    padding: 0px 5px;
+    color:#ffffff8a
+}
+
+
+/* End Slider */
+
+/* Start Navbar */
+
+.navbar {
+    height:65px;
+    background-color:#252F31;
+    color:#FFF
+}
+
+.navbar .logo span {color: #ffb03a}
+
+.navbar h2 {
+    text-transform:uppercase;
+    margin-top:17px;
+}
+
+.navbar ul {
+    list-style:none;
+    float:right;
+    margin:23px
+}
+
+.navbar ul li {
+    display:inline;
+    padding-right:15px
+}
+
+.navbar ul li a {
+    color:#FFF;
+    text-decoration:none
+}
+
+.navbar ul a.active,
+.navbar ul li a:hover {
+    color:#ffb03a;
+}
+
+/* End Navbar */
+
+
+/* End Header */
+
+/* Start features */
+
+.features {
+    overflow:hidden;
+    padding-top:40px;
+    padding-bottom: 50px
+}
+
+.features .feat {
+    width:33.333333%;
+    height:150px;
+    
+}
+
+.features .feat p {
+    width:95%
+}
+
+/* End features */
+
+/* Start About Me */
+
+.hakkimda{
+    min-height:457px;
+    background-color:#F2F2F2
+}
+
+.hakkimda .image {
+    float: left;
+    width: 45%;
+}
+.hakkimda .info {
+    width: 50%;
+    overflow:hidden
+}
+
+.hakkimda .info h2 {margin-bottom:-5px}
+
+
+/* End About Me */
+
+/* Start Bildiğim Diller */
+
+.bildigim_diller {
+    min-height:400px;
+    padding-top:30px
+}
+
+.bildigim_diller .bildiklerim {
+    width:50%;
+    margin-left:40px
+}
+
+.bildigim_diller .bildiklerim p {width:90%}
+
+.bildigim_diller .bildiklerim button {
+    display: inline-block;
+    background:none;
+    color: #ffb03a;
+    padding:9px 26px;
+    border: 2.5px solid #ffb03a;
+    margin-top:20px;
+    font-size:15px
+}
+
+.bildigim_diller .diller {width:45%}
+
+.bildigim_diller .diller .yuzde div {
+    height:25px;
+    background-color:#F2F2F2
+}
+
+.bildigim_diller .diller .yuzde div span {
+    background-color:#ffb03a;
+    display:block;
+    text-align:right;
+    height:25px;
+    color:#FFF;
+    font-weight:bold;
+    line-height:25px    
+}
+
+/* End Bildiğim Diller */
+
+/* Start My Education */
+
+.egitim hr {
+    border:0;
+    height:1px;
+    background-color:#999
+}
+
+.egitim .main {
+    width:50%
+}
+
+.egitim .main h2 {margin-left:40px}
+
+.egitim .main p {width:90%;margin-left:40px}
+
+.egitim .exp {
+    float:left;
+    width:45%;
+    margin-top:55px;
+    padding-left:5%
+}
+
+.egitim .exp .okul {margin-bottom:65px}
+
+.egitim .exp .okul:last-of-type {margin-bottom:50px}
+
+.egitim .exp .okul span {color:#666}
+
+.egitim .exp .okul span:last-of-type{
+    display:inline-block;
+    background-color:#ffb03a;
+    color:#FFF;
+    padding:3px 10px;
+    margin-top:10px;
+    margin-bottom:20px
+}
+
+/* End My Education */
+/* Start galeri */
+
+.galeri {
+    overflow:hidden;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    text-align:center
+}
+
+.galeri p {
+    margin-bottom:40px;
+    width:90%
+}
+
+.galeri .icon {
+    display:inline-block;
+    margin-bottom:25px
+}
+
+.galeri img {
+    border: 1px solid #CCC;
+    padding:8px;
+    margin:4px
+}
+
+/* End Galeri */
+
+/* Start Contact Me */
+
+.iletisim {background-color:#252F31;overflow:hidden;padding-top:50px;padding-bottom:50px}
+
+.iletisim .info {width:50%}
+
+.iletisim .info h2 {color:#FFF;margin-left:40px}
+
+.iletisim .info p {margin-left:40px}
+
+.iletisim .info p:last-of-type {margin-top:-13px}
+
+.iletisim .info strong {color: #D1D6DA;margin-right:40px}
+
+.iletisim .form {width:50%}
+
+.iletisim .form label {
+    color:#D1D6DA;
+    display:block;
+    margin-top:18px;
+    margin-bottom:13px;
+}
+
+.iletisim .form input[type="text"] {
+    background-color: #485557;
+    color:#FFF;
+    height: 40px;
+    width: 80%;
+    border:0;
+    font-size:18px
+}
+
+.iletisim .form textarea {
+    height:300px;
+    width:80%;
+    background-color:#455557;
+    color:#FFF;
+    border:0;
+    font-size:18px
+}
+
+.iletisim .form input[type="submit"] {
+    background-color: #191E22;
+    display:block;
+    color:#FFF;
+    height: 40px;
+    border:0;
+    margin-top:30px;
+    padding-right: 22px;
+    padding-left: 22px
+}
+
+/* End iletişim */
+
+/* Start My Frame Work */
+
+.fl-left {float:left}
+
+p {line-height:1.7;color:#888}
+
+h2 , h3 {color:#777}
+
+button , input[type="submit"]{cursor:pointer}
+
+/* End My Frame Work */
